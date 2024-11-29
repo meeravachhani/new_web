@@ -1,0 +1,305 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 50px;
+  padding: 0;
+  background-color: #f5e999;
+}
+
+.nickelfox {
+  margin-top: -25px;
+  font-size: 13px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+
+header {
+  padding: 0 60px;
+  transition: all 0.5s ease 0s;
+  position: relative;
+}
+
+section {
+  padding: 0 60px;
+  overflow: hidden;
+  background: transparent;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+}
+
+.text-primary {
+  color: #ebd96b;
+}
+
+.bg-primary {
+  background: #ebd96b;
+}
+
+.bg {
+  width: 49%;
+  border-radius: 15px;
+  margin-left: 30px;
+  background: #f4f4f4;
+  box-shadow: 0 0.5rem 1rem rgba(black, 0.15);
+}
+
+.nav {
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav p {
+  font-weight: 1000;
+  font-size: 12PX;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  margin: 0 10px;
+  font-size: 10px;
+}
+
+/*Button */
+.butn-style01 {
+  display: inline-block;
+  padding: 5px;
+  width: 70px;
+  border-radius: 5px;
+  background: #333;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.5s ease 0s;
+}
+
+/*title-style01*/
+.title-style01 h2 {
+  font-weight: 800;
+  color: #000;
+  font-style: bold;
+}
+
+/* BANNER-STYLE */
+.btn {
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+.banner-style01 {
+  background-color: rgba(222, 230, 237);
+  width: 500px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: -35px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.banner-style01 .banner-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-style01 .banner-flex .banner-text h1 {
+  font-size: 1.6em;
+  font-weight: 900;
+  line-height: 1.3;
+  font-weight: 900;
+  margin: 0;
+  width: 4%;
+  text-transform: uppercase;
+  margin-left: 25px;
+  margin-top: -10px;
+}
+
+p {
+  margin-left: 25px;
+  font-size: 10px;
+}
+
+.banner-style01 .banner-flex .banner-img img {
+  width: 276px;
+  margin-bottom: -10px;
+  overflow: hidden;
+  height: 100%;
+}
+
+/*CLIENT-STYLE*/
+.client-style01 {
+  padding: 10px;
+}
+
+.client-style01 .client-bg {
+  padding: 0 10px;
+}
+
+.client-style01 img {
+  width: 50px;
+  height: 30px;
+  padding-right: 27px;
+}
+
+/*TEAM-STYLE*/
+.new_arrivals {
+  font-weight: 800;
+  margin-left: -30px;
+}
+
+.team-style01 {
+  padding-bottom: 60px;
+}
+
+.team-style01 .team-flex {
+  display: flex;
+  align-items: center;
+  margin-left: -30px;
+}
+
+.team-style01 img {
+  height: 219px;
+  width: 150px;
+  border-radius: 10px;
+  margin-bottom: 13px;
+}
+
+.team-style01 .img1 {
+  margin-right: 25px;
+}
+
+.team-style01 .team-text {
+  margin-top: -25px;
+  font-size: 13px;
+}
+
+.team-style01 p {
+  margin-top: -17px;
+  margin-left: -1px;
+  font-size: 8px;
+}
+
+/* white background */
+.back_white {
+  border: 1px solid white;
+  background-color: white;
+  height: 900px;
+  width: 391px;
+  margin-left: 700px;
+  margin-top: -839px;
+  position: relative;
+}
+
+.side_white {
+  width: 1262px;
+  height: 200px;
+  border: 1px solid white;
+  background-color: white;
+  margin-left: -50px;
+  margin-top: -100px;
+  z-index: -5;
+  position: relative;
+}
+
+.side_black {
+  width: 1262px;
+  height: 90px;
+  border: 1px solid black;
+  background-color: black;
+  margin-left: -50px;
+  position: relative;
+}
+
+/* selnow */
+.selnow img {
+  position: relative;
+  height: 170px;
+  width: 330px;
+  margin-top: -975px;
+  margin-left: 747px;
+}
+
+.yang {
+  font-size: 9px;
+  font-weight: 900;
+  margin-top: -780px;
+  margin-left: 780px;
+}
+
+.fashion {
+  margin-left: 780px;
+  margin-top: -760px;
+}
+
+.image_two {
+  height: 100px;
+  width: 130px;
+  padding-right: 20px;
+}
+
+.trending p {
+  margin-left: 785px;
+  margin-top: -3px;
+  font-size: 7px;
+}
+
+.trending_second p {
+  font-size: 7px;
+  margin-left: 945;
+  margin-top: -25px;
+  margin-bottom: 10px;
+}
+
+.phone {
+  margin-left: 930px;
+  margin-top: 50px;
+}
+
+.add {
+  height: 140px;
+}
+
+.download p {
+  font-size: 10px;
+  font-weight: 1000;
+  margin-left: 780px;
+  margin-top: -100px;
+}
+
+.sub_content {
+  font-size: 5px;
+  margin-left: 760px; 
+}
+
+.last_image {
+  width: 350px;
+  height: 200px;
+  padding-left: 375px;
+  margin-top: 22px;
+}
+
+.google {
+  width: 100px;
+  padding-left: 390px;
+}
+
+.arrow {
+  margin-top: -35px;
+  margin-left: 120px;
+  color: gray;
+}
